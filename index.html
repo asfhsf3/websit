@@ -83,19 +83,38 @@
       transform: scale(1.1);
       box-shadow: 0 0 15px red;
     }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      #love-text {
+        font-size: 1.4rem;
+        padding: 15px;
+      }
+
+      #theme-btn {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+      }
+
+      #gift-btn {
+        width: 40px;
+        height: 40px;
+      }
+    }
   </style>
 </head>
 <body>
-  <h2<div id="love-text">I love Nariman ✮⋆ for you 💖</div></h2>
+  <div id="love-text">I love Nariman ✮⋆ for you 💖</div>
 
- <a href="gift.html" id="gift-btn" title="نريمان">
-  <img src="cc890cd0b257707e585168c9cd2cf4fe.webp" alt="Nariman">
-</a>
- 
+  <button id="theme-btn" class="button">🎨 الخلفية</button>
+  <a href="gift.html" id="gift-btn" title="نريمان">
+    <img src="cc890cd0b257707e585168c9cd2cf4fe.webp" alt="Nariman">
+  </a>
+
   <script>
     const messages = [
       "I love Nariman ✮⋆ for you 💖",
-      "انتِ لو هتعطيني هديه فا انتِ هديتي الوحيدة🥺",
+       "انتِ لو هتعطيني هديه فا انتِ هديتي الوحيدة🥺",
       "أنتِ النور في حياتي يا نريمان 🌟",
       "كل لحظة معك هي سعادة 💌",
       "قلبي ملككِ إلى الأبد ❤️"
